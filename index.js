@@ -97,7 +97,7 @@ S3Zipper.prototype = {
       s3Client: this.s3bucket
       // more options available. See API docs below.
     };
-    var client = s3.createClient(options);
+    var client = new s3(options);
 
     var realParams = {
       s3Params: bucketParams,
