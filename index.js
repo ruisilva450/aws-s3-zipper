@@ -3,7 +3,7 @@ var archiver = require("archiver");
 var async = require("async");
 var AWS = require("aws-sdk");
 var fs = require("fs");
-var s3 = require("aws-sdk/clients/s3");
+var s3 = require("@auth0/s3");
 
 function S3Zipper(awsConfig) {
   var self = this;
@@ -97,7 +97,7 @@ S3Zipper.prototype = {
       s3Client: this.s3bucket
       // more options available. See API docs below.
     };
-    var client = new s3(options);
+    var client = s3.createClient(options);
 
     var realParams = {
       s3Params: bucketParams,
