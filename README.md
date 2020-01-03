@@ -1,4 +1,4 @@
-# Amazon S3 Zipping tool (aws-s3-zipper)
+# Amazon S3 Zipping tool (s3-zipper)
 
 ## What does it do?
 ### 1. Zips S3 files
@@ -17,7 +17,6 @@ If a zip file has the potential of getting too big. You can provide limits to br
 
 ### 4. Filter Files to zip
 You can filter out files you dont want zipped based on any criteria you need
-
 
 
 ## How do i use it?
