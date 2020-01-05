@@ -1,5 +1,10 @@
 # Amazon S3 Zipping tool (s3-zipper)
 
+## Installation
+
+`npm install s3-zipper --save`
+
+
 ## What does it do?
 ### 1. Zips S3 files
 Takes an amazon s3 bucket folder and zips it to a:
