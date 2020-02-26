@@ -1,5 +1,7 @@
 # Amazon S3 Zipping tool (s3-zipper)
 
+![version](https://badgen.net/npm/v/s3-zipper)
+
 ## Installation
 
 `npm install s3-zipper --save`
